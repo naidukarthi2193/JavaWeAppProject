@@ -1,6 +1,11 @@
 package com.example.javaweappproject.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Student {
+    @Id
     private String suid;
     private String name;
     private String contactInfo;
